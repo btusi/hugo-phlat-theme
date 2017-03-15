@@ -16,7 +16,7 @@
                                     <li><i class="fa fa-user"></i>{{ .Params.author }}</li>
                                 </ul>
                                 {{ .Summary }}
-                                <a class="btn btn-custom" href="{{ .Permalink }}" role="button">Read More</a>
+                                <br /><a class="btn btn-custom" href="{{ .Permalink }}" role="button">Read More</a>
                             </div>
                         </div>
                     {{ end }}
@@ -27,7 +27,6 @@
                     {{ partial "widgets/sidebar/recent.html" . }}
                     {{ partial "widgets/sidebar/adsense.html" . }}
                     {{ partial "widgets/sidebar/categories.html" . }}
-                    {{ partial "widgets/sidebar/donate.html" . }}
                 </div>
             </div>
         </div>
